@@ -22,7 +22,7 @@ An optimizing Forth 2012 compiler targeting WebAssembly. WAFER JIT-compiles each
 Requires [Rust](https://www.rust-lang.org/tools/install) 1.85+ (edition 2024).
 
 ```bash
-cargo install --git https://github.com/ok2/wafer.git wafer
+cargo install --git https://github.com/Kaizenkodo/wafer.git wafer
 ```
 
 This installs the `wafer` binary to `~/.cargo/bin/`.
@@ -67,7 +67,7 @@ BUMP BUMP BUMP COUNTER @ .  \ prints: 3
 ## Building from source
 
 ```bash
-git clone --recurse-submodules https://github.com/ok2/wafer.git
+git clone --recurse-submodules https://github.com/Kaizenkodo/wafer.git
 cd wafer
 cargo build --workspace --release
 ```
